@@ -17,6 +17,7 @@ import scipy.ndimage
 # from tqdm import tqdm
 from PIL import Image, ImageFilter
 from .catvton.pipeline import CatVTONPipeline
+from .catvton.cloth_masker import AutoMasker
 from torchvision.transforms.functional import to_pil_image, to_tensor
 from diffusers.image_processor import VaeImageProcessor
 import folder_paths

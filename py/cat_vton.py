@@ -84,6 +84,7 @@ class LS_CatVTON:
 
         return (result_image,)
 
+    
 NODE_CLASS_MAPPINGS = {
     "CatVTONWrapper": LS_CatVTON
 }
